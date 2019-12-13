@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 5px 0;
+	box-shadow: 0 10px #888888;
+}
+.wrapper{
+	overflow: hidden;
+	/*border: 2px solid yellow;*/
+	width: 80%;
+	margin: 0 auto;
+}
+.logo{
+	width: 17%;
+	/*border: 1px solid red;*/
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 50px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	display: block;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	transition: .5s;	
+}
+.menu ul li a:hover{
+	color: #0073A6;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: url(../images/man.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	font-family: sans-serif;
+	width: 50%;
+	/*border: 1px solid white;*/
+	margin-top: 200px;
+	margin-bottom: 70px;
+}
+.b_content h1{
+	font-weight: 400px;
+	font-size: 52px;
+	color: white;
+}
+.b_content h2{
+	font-weight: 700px;
+	font-size: 62px;
+	color: #0770BF;
+}
+.b_content p{
+	font-size: 24px;
+	color: white;
+	line-height: 33px;
+}
+.b_content button{
+	font-size: 30px;
+	color: #545353;
+	text-transform: uppercase;
+	background-color: white;
+	padding: 16px 33px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 34px;
+	transition: .5s;
+}
+.b_content button:hover{
+	color: #1271AD;
+}
+/*banner end*/
+
+/*service start*/
+.service{
+	background-color: #111A2B;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.single{
+	width: 30%;
+	border-right: 1px solid white;
+	padding: 20px 1.64%;
+	float: left;
+}
+.single:last-child{
+	border-right: 0;
+}
+.top{
+	overflow: hidden;
+}
+.t_img{
+	width: 25%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+.t_img img{
+	width: 100%;
+}
+.t_text{
+	width: 65%;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-top: 18px;
+}
+.t_text h1{
+	font-family: sans-serif;
+	font-weight: 400px;
+	font-size: 34px;
+	color: white;
+}
+.t_text h2{
+	font-family: sans-serif;
+	font-weight: 700px;
+	font-size: 40px;
+	color: #1183C7;
+}
+.bottom{}
+.bottom p{
+	font-family: sans-serif;
+	font-weight: 400px;
+	font-size: 24px;
+	color: white;
+	line-height: 33px;
+}
+/*service end*/
+
+/*section2 start*/
+.contact{
+	background-color: #03060F;
+	/*border: 1px solid yellow;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.wrapper2{
+	overflow: hidden;
+	width: 70%;
+	/*border: 1px solid yellow;*/
+	margin: 0 auto;
+	padding: 18px 0;
+}
+.c_single{
+	font-family: sans-serif;
+	width: 32%;
+	/*border: 1px solid red;*/
+	color: white;
+	float: left;
+}
+.c_single h1{
+	font-weight: 400;
+	font-size: 35px;
+	padding-top: 40px;
+	padding-bottom: 16px;
+}
+.c_single p{
+	overflow: hidden;
+	font-size: 20px;
+	padding-top: 4px;
+	padding-bottom: 26px;
+	line-height: 28px;
+}
+.cs{
+	width: 25%;
+	/*border: 1px solid yellow;*/
+	float: left;
+	font-size: 22px;
+	line-height: 28px;
+}
+.cs2{
+	width: 65%;
+	/*border: 1px solid yellow;*/
+	float: left;
+	font-size: 22px;
+	line-height: 28px;
+}
+.c_single img{
+	width: 180px;
+	/*border: 1px solid yellow;*/
+	float: left;
+}
+.right{
+	/*border: 1px solid yellow;*/
+	float: right;
+}
+.r1{
+	font-weight: 300px;
+	font-size: 30px;
+}
+.r2{
+	font-size: 37px;
+	padding: 15px 0;
+}
+.right button{
+	padding: 17px 30px;
+	border: none;
+	border-radius: 4px;
+}
+.b1{
+	font-size: 16px;
+}
+.b2{
+	font-size: 37px;
+}
+/*section2 end*/
+
+/* footer start*/
+footer{
+	background-color: #111A2B;
+	color: white;
+}
+.wrapper3{
+	font-family: sans-serif;
+	overflow: hidden;
+	/*border: 1px solid yellow;*/
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+.f_left{
+	/*border: 1px solid yellow;*/
+	float: left;
+	color: white;
+	width: 58%;
+	padding-right: 20px;
+}
+.menu2{
+	display: block;
+	/*border: 1px solid yellow;*/
+}
+.menu2 ul{
+	
+}
+.menu2 ul li{
+	float: left;
+	list-style: none;
+}
+.menu2 ul li a{
+	display: block;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-right: 44px;
+	padding-bottom: 20px;	
+}
+.f_text{
+	display: block;
+	font-size: 20px;
+	/*border: 1px solid yellow;*/
+	padding-top: 33px;
+}
+.f_mid{
+	font-size: 50px;
+	float: left;
+	/*border: 1px solid red;*/
+	width: 16%;
+	padding-right: 20px;
+}
+.logo2{
+	/*border: 1px solid yellow;*/
+	float: left;
+	width: 16%;
+	padding: 0 20px;
+}
+.logo2 img{
+	width: 100%;
+}
+/* footer end*/
